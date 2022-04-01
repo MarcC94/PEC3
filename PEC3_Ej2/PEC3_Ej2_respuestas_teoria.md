@@ -13,12 +13,12 @@ Algunas ventajas serían:
 >#### Para cada uno de los valores del fichero code2.ts, ¿Qué tipo de datos inferirá TypeScript? Explica por qué se ha inferido este tipo de datos.
 >
 >const a = 1042;   // const a: number
-const b = 'apples and oranges'; // const b: string
-const c = 'pineapples'; // const c: string
-const d = [true, true, false]; // const d: boolean[]
-const e = { type: 'ficus' }; // const e: {type: string}
-const f = [1, false]; // const f: (number|boolean)[]
-const g = [3]; // const g: number[]
-const h = null; // const h: null
+>const b = 'apples and oranges'; // const b: string
+>const c = 'pineapples'; // const c: string
+>const d = [true, true, false]; // const d: boolean[]
+>const e = { type: 'ficus' }; // const e: {type: string}
+>const f = [1, false]; // const f: (number|boolean)[]
+>const g = [3]; // const g: number[]
+>const h = null; // const h: null
 
-TypeScript establece el tipo de dato haciendo un typeof para obtener el tipo sobre el valor asignado a cada una de las variables constantes.
+>TypeScript establece el tipo de dato haciendo un typeof para obtener el tipo sobre el valor asignado a cada una de las variables constantes.
