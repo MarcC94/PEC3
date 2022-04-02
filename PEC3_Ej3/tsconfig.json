@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es2015", //Significa qué destino de JavaScript debe emitirse desde el TypeScript dado.
+    "module": "commonjs", //Le dice al compilador qué sintaxis usar para los módulos en los archivos .js emitidos.
+    "outDir": "./dist",  //Es la ruta a la carpeta con archivos JavaScript compilados que serán ejecutados por Node o navegador web (en nuestro caso es /dist)
+    "rootDir": "./src", //Es la ruta a la carpeta con el código fuente de la aplicación (en nuestro caso es /src)
+    "strict": true, //El indicador strict permite una amplia gama de comportamientos de verificación de tipos que dan como resultado mayores garantías 
+    //de corrección del programa. Activar esto equivale a habilitar todas las opciones de la familia de modos estrictos.
+    "incremental": true, //Le dice a TypeScript que guarde información sobre el gráfico del proyecto de la última compilación en archivos almacenados 
+    //en el disco. Esto crea una serie de archivos .tsbuildinfo en la misma carpeta que su salida de compilación. JavaScript no los utiliza en tiempo 
+    //de ejecución y se pueden eliminar de forma segura.
+    "tsBuildInfoFile": "./buildcache", //Esta configuración permite especificar un archivo para almacenar información de compilación incremental 
+    //como parte de proyectos compuestos, lo que permite una creación más rápida de bases de código de TypeScript más grandes.
+  }
+}

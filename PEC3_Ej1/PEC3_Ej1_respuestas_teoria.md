@@ -1,4 +1,4 @@
->### Ventajas Typescript sobre Javascript
+> ### Ventajas Typescript sobre Javascript
 >
 > TypeScript permite crear código reutilizable basado en tipos genéricos, sin tener que duplicarlo por causa de cambios de tipo y evitando la necesidad de usar el tipo "any". Por ejemplo, si tenemos una función que muestra un valor numérico y luego lo devuelve y más tarde queremos hacer esa misma funcionalidad pero con un string, en javascript tendremos que hacer dos funciones distintas mientras que en TypeScript podemos hacerlo solo con una.
 > 
