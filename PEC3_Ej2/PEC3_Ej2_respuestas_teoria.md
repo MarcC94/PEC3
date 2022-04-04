@@ -2,13 +2,15 @@
 >
 > #### TypeError en code1.ts
 >
-> Al hacer "const a = 1 + '2'", "a" pasa a ser de tipo "number" a tipo "string". Cuando después se multiplica este valor * 4 en la última línea del código se produce un error al detectar que "a" es un string y no un número, lo que resulta en no poder hacer la multiplicación.
+> Al hacer "const a = 1 + '2'", "a" pasa a ser de tipo "number" a tipo "string". Cuando después se multiplica este valor * 4 en la última línea del código se produce un error al detectar que "a" es un string y no un número, lo que resulta en no poder hacer la multiplicación. Esto es debido al tipado estático de TypeScript.
 Algunas ventajas serían:
 >
 > Detención temprana de algunos tipos de errores, p.e.j errores de asignación.
 > Es más sencillo refactorizar nombres de variables, funciones, métodos etc.
 > En general el código es más expresivo, y muchas veces es fácil entender lo que se está haciendo gracias a los tipos.
 > Mejor autocompletado del código. Como el compilador tiene más información, es más fácil que ayude mientras se escribe el código, ganando en productividad.
+>
+> (Dentro de la carpeta PEC3_Ej2 se encuentra la imagen "TypeError.png" con la captura del error)
 >
 > #### Para cada uno de los valores del fichero code2.ts, ¿Qué tipo de datos inferirá TypeScript? Explica por qué se ha inferido este tipo de datos.
 >
