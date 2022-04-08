@@ -20,7 +20,7 @@
 >
 > - Respuesta a la pregunta 3 en  "PEC3_Ej2_respuestas_teoria.md".
 >
-> PEC2_Ej3
+> PEC3_Ej3
 >
 > - Ejer3-a: Explicación opciones del fichero tsconfig.json con comentarios en el propio fichero.
 >
@@ -30,9 +30,9 @@
 >
 > - Ejer3-d: Realización ejericio3.ts.
 >
-> PEC2_Ej4
+> PEC3_Ej4
 >
-> - Ejer4-a: Modificación de la extensión de los archivos de js a ts.
+> - Ejer4-a: Modificación de la extensión de los archivos js a ts.
 >
 > - Ejer4-b: Modificación clase modelo para adaptarla a TypeScript.
 >

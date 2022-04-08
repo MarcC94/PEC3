@@ -13,7 +13,7 @@
 >
 > (Dentro de la carpeta PEC3_Ej2 se encuentra la imagen "TypeError.png" con la captura del error)
 >
-> #### Para cada uno de los valores del fichero code2.ts, ¿Qué tipo de datos inferirá TypeScript? Explica por qué se ha inferido este tipo de datos.
+> #### 1. Para cada uno de los valores del fichero code2.ts, ¿Qué tipo de datos inferirá TypeScript? Explica por qué se ha inferido este tipo de datos.
 >
 > const a = 1042;   // const a: number
 >
@@ -33,7 +33,7 @@
 >
 > TypeScript establece el tipo de dato haciendo un typeof para obtener el tipo sobre el valor asignado a cada una de las variables constantes.
 >
-> #### ¿Por qué se dispara cada uno de los errores del fichero code3.ts?
+> #### 2. ¿Por qué se dispara cada uno de los errores del fichero code3.ts?
 >
 > Error TS2588: No se puede modificar el valor de una constante una vez inicializada.
 >
@@ -43,7 +43,7 @@
 >
 > Error TS2571: El objeto es de tipo "unknown" y debería ser de tipo "any", "number" o "bigint" o un tipo de enumeración para realizar la multiplicación.
 >
-> #### ¿Cuál es la diferencia entre una clase y una interface en TypeScript?
+> #### 3. ¿Cuál es la diferencia entre una clase y una interface en TypeScript?
 >
 > Una interfaz es una estructura virtual que solo existe en el contexto de TS. El compilador de TS se basa en la interfaz para la verificación de tipos. Después de la compilación final en JS, la interfaz se elimina.
 >

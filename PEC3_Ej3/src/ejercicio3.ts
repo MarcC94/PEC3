@@ -47,9 +47,16 @@ animals.push(new Dog('white'));
 animals.push(new Cat('female'));
 animals.push(new Dog('black'));
 
+//Se llama primero a la función animal.sound() y luego a las funciones animal.iamacat()
+// o animal.iamadog() dependiendo de si animal es instancia de la clase Cat o de la clase Dog.
 for(let animal of animals){
     animal.sound();
-
+    if (animal instanceof Cat){
+        animal.iamacat();
+    }
+    else if (animal instanceof Dog){
+        animal.iamadog();
+    }
 }
 /**  loop prints these lines
 MEOW
