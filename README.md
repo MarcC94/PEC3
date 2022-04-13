@@ -26,7 +26,7 @@
 >
 > - Ejer3-b: Realización ejericio1.ts.
 >
-> - Ejer3-c: Realización ejericio2.ts.
+> - Ejer3-c: Realización ejericio2.ts. No he conseguido realizarlo.
 >
 > - Ejer3-d: Realización ejericio3.ts.
 >
@@ -42,4 +42,4 @@
 >
 > - Ejer4-e: Modificación clase controlador para adaptarla a TypeScript.
 >
-> - Ejer4-f:
+> - Ejer4-f:  NO REALIZADO.
